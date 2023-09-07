@@ -42,6 +42,10 @@
          .donate-button:hover {
          background-color: #0056b3;
          }
+         #map {
+         width: 100%;
+         height: 400px;
+         }
       </style>
    </head>
    <body>
@@ -60,18 +64,22 @@
             <p><strong>Progress So Far:</strong>
                The groundwork for this significant project is well underway. We have secured the land and have begun laying the foundation for the Mustafa Sunni Masjid. We are committed to seeing this project through to completion, but we cannot achieve our goal without your generous support.
             </p>
-
-           <strong>Location:</strong>
-            <ul>
-               <li><strong>Address:</strong> Gala number 4, Survey number 206/2, Pathan compound</li>
-               <li><strong>Near:</strong> Green Hill Resort, Vanotha Pada, Pehlar, Vasai East</li>
-            </ul>
+            <div class="container">
+               <strong>Location:</strong>
+               <ul>
+                  <li><strong>Address:</strong> Gala number 4, Survey number 206/2, Pathan compound</li>
+                  <li><strong>Near:</strong> Green Hill Resort, Vanotha Pada, Pehlar, Vasai East</li>
+               </ul>
+               <div id='mapouter' style='position:relative;text-align:center;width:100%; height:400px;'>
+                  <div style='overflow:hidden;background:none!important;width:100%; height:400px;' id='gmap_canvasid'><iframe style='width:100%; height:400px;' id='gmap_canvas' src='https://maps.google.com/maps?q=19.4471396,72.8698&t=k&z=19&ie=UTF8&output=embed' frameborder='0' scrolling='no' marginheight='0' marginwidth='0'></iframe><br></div>
+               </div>
+            </div>
             <p><strong>Get Involved:</strong>
                We invite you to be a part of this meaningful initiative. Your donations, support, and prayers are essential in helping us realize the dream of building the Mustafa Sunni Masjid.
             </p>
             <p>Together, we can create a place of worship and community that will benefit generations to come. Join us on this remarkable journey towards a brighter, more spiritually fulfilling future.</p>
             <p><strong>Contact Us:</strong>
-               For more information, inquiries, or to make a donation, please feel free to contact us at +917021836671.
+               For more information, inquiries, or to make a donation, please feel free to contact us at +917021836671. or +919930974430
             </p>
             <p>Thank you for your support and dedication to the Mustafa Sunni Masjid project.</p>
          </div>
@@ -79,14 +87,13 @@
          <p>Whoever builds a Masjid for the sake of Allah, Allah will build for him a house in Paradise.</p>
          <p>Scan the QR Code below to make your donation via PhonePe:</p>
          <img src="qr_code_image.jpg" alt="Donate Now">
-<div class="container" marginTop:"20px">
- <h1>Ground Work Video</h1>
-    <video width="640" height="360" controls>
-        <source src="groundWorkVideo.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-</div>
+         <div class="container" marginTop:"20px">
+            <h1>Ground Work Video</h1>
+            <video width="640" height="360" controls>
+               <source src="groundWorkVideo.mp4" type="video/mp4">
+               Your browser does not support the video tag.
+            </video>
+         </div>
       </div>
-
    </body>
 </html>
